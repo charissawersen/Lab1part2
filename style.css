@@ -7,71 +7,64 @@
 body {
     background-color: #f9fafc;
     font-family:'OpenSans';
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 #title {
     font-size: .8rem;
     color: #000;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 0px;
     font-weight: bolder;
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
 }
 li a{
-    display: block;
     text-decoration: none;
     color: #69696a;
     font-size: .8rem;
-    padding: 5px;
-    margin-left: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 .button {
     background-color: #000;
     color: #fff;
     font-family: 'OpenSans',Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    width: 93%;
-    height: 6rem;
+    font-size: .8rem;
+    width: 90%;
+    height: 2rem;
     border-radius: 50px;
-    margin-top: 25px;
     border: none;
 }    
 #hire-us {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    right: 50%;
     left: 50%;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, 360%);
 }
 #scroll-down {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 630%);
+    transform: translate(-50%, -90%);
 }
 h1 {
-    font-size: 4rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    position: relative;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -20%);
-    margin-left: 30px;
+    font-size: 1rem;
+    padding-top: 50px;
+
 }
 blockquote {
-    border-left: 7px solid #69696a;
-    margin: 1em 48px;
-    padding: .25em 30px;
+    border-left: 1px solid #69696a;
+    margin: 1em 0px;
+    padding: .25em 5px;
     font-size: .8rem;
     color: #69696a
 }
