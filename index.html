@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lab 1 Part 2</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
     <style>
       @font-face {
         font-family: "OpenSans";
@@ -10,37 +19,37 @@
         font-style: normal;
       }
     </style>
-
-    <title>HTML/CSS LAB 1 PT.1</title>
-    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-      <section id="section1">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <main>
+      <nav>
         <p id="title">chripus inc.</p>
-        <nav>
-          <ul>
-            <li><a href="/work/">Work</a></li>
-            <li><a href="/about-us/">About us</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          </ul>
-        </nav>
-      </section>
-      <button type="button" class="button" id="hire-us">Hire Us</button>
-      <button type="button" class="button" id="scroll-down">Scroll Down</button>
-      <section id="section3">
-        <h1>chripus inc.</h1>
-        <blockquote>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Est velit
-          egestas dui id ornare arcu. Molestie a iaculis at erat. Cras fermentum
-          odio eu feugiat pretium nibh ipsum consequat. At urna condimentum
-          mattis pellentesque id.
-        </blockquote>
-      </section>
-      <section id="section4">
-        <div class="large-circle"></div>
-        <div class="medium-circle"></div>
-        <div class="small-cirlc"></div>
-      </section>
+        <div class="links">
+          <a href="/work/">Work</a>
+          <a href="/about-us/">About us</a>
+          <a href="/contact/">Contact</a>
+        </div>
+      </nav>
+      <button type="button" class="hire-btn">Hire Us</button>
+      <h2>chirpus inc.</h2>
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Est velit egestas
+        dui id ornare arcu. Molestie a iaculis at erat. Cras fermentum odio eu
+        feugiat pretium nibh ipsum consequat. At urna condimentum mattis
+        pellentesque id.
+      </blockquote>
+      <button type="button" class="scroll-btn">Scroll Down</button>
+      <div class="big-circle"></div>
+      <div class="med-circle"></div>
+      <div class="small-circle"></div>
+    </main>
+    <script src="" async defer></script>
   </body>
 </html>
