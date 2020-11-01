@@ -136,4 +136,8 @@ blockquote:before {
     top: 13rem;
     right: 4rem;
   }
+  .quote {
+    position: absolute;
+    top: 8rem;
+  }
 }
